@@ -4,9 +4,78 @@
 # should build pages for, and indicates metadata such as tags, creation date and
 # authors for each page.
 
-- title: Practial Guide for Model Selection for Real‑World Use Cases
+- title: Exploring Model Graders for Reinforcement Fine-Tuning
+  path: examples/Reinforcement_Fine_Tuning.ipynb
+  date: 2025-05-23
+  authors:
+    - theophile-openai
+  tags:
+    - reinforcement-learning
+    - fine-tuning
+    - reinforcement-learning-graders
+
+- title: Reinforcement Fine-tuning with the OpenAI API
+  path: examples/fine-tuned_qa/reinforcement_finetuning_healthbench.ipynb
+  date: 2025-05-21
+  authors:
+    - robert-tinn
+  tags:
+    - fine-tuning
+    - qa
+    - evals
+    - reinforcement
+
+- title: Guide to Using the Responses API's MCP Tool 
+  path: examples/mcp/mcp_tool_guide.ipynb
+  date: 2025-05-21
+  authors:
+    - charuj
+  tags:
+    - mcp
+
+- title: Image Understanding with RAG
+  path: examples/multimodal/image_understanding_with_rag.ipynb
+  date: 2025-05-16
+  authors:
+    - robert-tinn
+  tags:
+    - responses
+    - images
+    - RAG
+    - vision
+
+- title: Better performance from reasoning models using the Responses API
+  path: examples/responses_api/reasoning_items.ipynb
+  date: 2025-05-11
+  authors:
+    - billchen-openai
+  tags:
+    - responses
+    - functions
+
+- title: Context Summarization with Realtime API
+  path: examples/Context_summarization_with_realtime_api.ipynb
+  date: 2025-05-10
+  authors:
+    - minh-hoque
+  tags:
+    - audio
+    - speech
+    - tiktoken
+
+- title: Comparing Speech-to-Text Methods with the OpenAI API
+  path: examples/Speech_transcription_methods.ipynb
+  date: 2025-04-29
+  authors:
+    - minh-hoque
+  tags:
+    - audio
+    - speech
+    - agents-sdk
+
+- title: Practical Guide for Model Selection for Real‑World Use Cases
   path: examples/partners/model_selection_guide/model_selection_guide.ipynb
-  date: 2025-05-05
+  date: 2025-05-07
   authors:
     - shikhar-cyber
     - kashyapm-tribe
@@ -22,32 +91,41 @@
     - legal
     - pharma
 
-- title: EvalsAPI Use-case - Detecting prompt regressions
+- title: Evals API Use-case - Detecting prompt regressions
   path: examples/evaluation/use-cases/regression.ipynb
   date: 2025-04-08
   authors:
     - josiah-openai
   tags:
-    - evalsapi
+    - evals-api
     - completions
 
-- title: EvalsAPI Use-case - Bulk model and prompt experimentation
+- title: Evals API Use-case - Bulk model and prompt experimentation
   path: examples/evaluation/use-cases/bulk-experimentation.ipynb
   date: 2025-04-08
   authors:
     - josiah-openai
   tags:
-    - evalsapi
+    - evals-api
     - completions
 
-- title: EvalsAPI Use-case - Monitoring stored completions
+- title: Evals API Use-case - Monitoring stored completions
   path: examples/evaluation/use-cases/completion-monitoring.ipynb
   date: 2025-04-08
   authors:
     - josiah-openai
   tags:
-    - evalsapi
+    - evals-api
     - completions
+
+- title: Evals API Use-case - Responses Evaluation
+  path: examples/evaluation/use-cases/responses-evaluation.ipynb
+  date: 2025-05-13
+  authors:
+    - willhath-openai
+  tags:
+    - evals-api
+    - responses
 
 - title: Multi-Tool Orchestration with RAG approach using OpenAI's Responses API
   path: examples/responses_api/responses_api_tool_orchestration.ipynb
@@ -1880,15 +1958,6 @@
   authors:
     - MW-OAI
     - thli-openai
-  tags:
-    - usage-api
-    - cost-api
-
-- title: How to use the Usage API and Cost API to monitor your OpenAI usage
-  path: examples/completions_usage_api.ipynb
-  date: 2025-01-14
-  authors:
-    - MW-OAI
   tags:
     - usage-api
     - cost-api
